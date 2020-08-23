@@ -33,13 +33,12 @@ The following actions would be done if the development of the application were t
 ## Key files description
 
 * set_de_datos_con_perspectivas...: Original dataset.
-* Diccionario_Set_de_Datos.pdf: Variable dictionary.
 * 1 - Dataset.ipynb: Notebook used to construct the corpus and extract text from the files (given google drive id)
 * 2 - TFIDF and doc2vec.ipynb: Notebook used to train the tf-idf and doc2vec models.
 * df_raw_text2.csv: Dataset after extracting texts from documents.
 * clean_dataset.csv: Dataset used in the models with variables already transformed.
-* app.py: Streamlit code app.
-* attention.html: visualization of the higher weights in the self-attention model
+* app.py: Streamlit code [app](http://ec2-35-180-254-8.eu-west-3.compute.amazonaws.com:8501/).
+* attention.html: visualization of the higher weights in the self-attention model. Print [here](https://github.com/ppfreitas/nlp_prueba/blob/master/attention_print.png)
 * Google.py: Code by https://learndataanalysis.org/ to initiate Google API service.
 * Structured-Self-Attention-master: folder with the files for the attention model. Source: https://github.com/kaushalshetty/Structured-Self-Attention/
 
