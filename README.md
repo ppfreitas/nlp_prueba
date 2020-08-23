@@ -18,7 +18,7 @@ All the out-of-sample results can be seen [in this notebook](https://github.com/
 ## Conclusions
 Both the tf-idf and doc2vec proved to be good classifiers when taken into account the difficulty in identifying minority classes in highly imbalanced datasets. The dataset was also relatively small, and the models would probably benefit from having more data. Considering that False Negatives are more problematic than False Positives, the tf-idf performed better than the doc2vec model.  
 
-The [self-attention visualization](https://github.com/ppfreitas/nlp_prueba/blob/master/attention.html) heatmap does make sense for a lot of attention terms, however not all of them are intuitive to me. This model is underused in this analysis and with more time it could be used to deepen our analysis on the problem.
+The [self-attention visualization](https://github.com/ppfreitas/nlp_prueba/blob/master/attention_print.png) heatmap does make sense for a lot of attention terms, however not all of them are intuitive to me. This model is underused in this analysis and with more time it could be used to deepen our analysis on the problem.
 
 ## Next Steps
 
